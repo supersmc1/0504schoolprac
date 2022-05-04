@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <button id="root">A</button>
+
+  <script>
+    //1. A버튼을 클릭하면 콘솔창에 hello라는 string이 55번 출력되도록 알고리즘을 만드세요
+//※ 클릭을 55번 하는 것 금지
+    const root = document.getElementById('root');
+    let con = 55
+    let hello = "hello"
+    root.addEventListener("click",function(){
+      for(let i = 0; i < con; ){
+        i++
+        console.log(hello[0])
+      }
+    });
+
+
+  </script>
+</body>
+</html>
